@@ -52,7 +52,7 @@ const user: {
     isMarried: false,
 }
 
-user.organization = 'To To Company Manager';
+// user.organization = 'To To Company Manager';
 
 console.log(user);
 
