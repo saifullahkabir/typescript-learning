@@ -21,5 +21,38 @@ let ranaNameAndRoll: [string, number] = ["Rana", 10];
 ranaNameAndRoll[0] = 'Saifullah'
 
 
-let destination: [string, string, number ] = ["Chittagong", "Dhaka", 2];
+let destination: [string, string, number] = ["Chittagong", "Dhaka", 2];
+
+
+// reference type : object
+
+// const user: {
+//     organization: "To To Company";  // value => type : Literal types
+//     firstName: string;
+//     middleName?: string;  // optional type
+//     lastName: string;
+//     isMarried: boolean;
+// } = {
+//     organization: 'To To Company',
+//     firstName: "Saifullah",
+//     lastName: "Rana",
+//     isMarried: false,
+// }
+
+const user: {
+    readonly organization: string;  // access modifier
+    firstName: string;
+    middleName?: string;  // optional type
+    lastName: string;
+    isMarried: boolean;
+} = {
+    organization: 'To To Company',
+    firstName: "Saifullah",
+    lastName: "Rana",
+    isMarried: false,
+}
+
+user.organization = 'To To Company Manager';
+
+console.log(user);
 
