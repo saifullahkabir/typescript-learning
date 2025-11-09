@@ -14,7 +14,7 @@ const user = {
 //  const myFavoriteColor = user.favoriteColor;
 //  const myLastName = user.name.lastName;
 
-const { favoriteColor: myFavoriteColor, name: { lastName } } = user;
+const { favoriteColor: myFavoriteColor, name: { lastName } } = user;  // name alias
 // console.log(lastName);
 
 //* array destructuring
