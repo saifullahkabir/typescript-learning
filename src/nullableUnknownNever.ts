@@ -48,5 +48,3 @@ function getUserInfo(id: number) {
 
 console.log(getUserInfo(-5));; // Error: Invalid ID!
 
-
-
