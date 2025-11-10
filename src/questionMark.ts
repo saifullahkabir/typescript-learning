@@ -23,6 +23,15 @@ const userTheme = undefined;
 const selectedTheme = userTheme ?? 'Light Theme';
 console.log(selectedTheme);
 
+// real life example:
+const userInfo ={
+    name: "Rana",
+    age: null,  
+};
+
+const userAge = userInfo.age ?? 'Not Provided';
+console.log(userAge);
+
 
 const isAuthenticated = '';
 
