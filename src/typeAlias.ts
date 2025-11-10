@@ -1,18 +1,24 @@
-//* type alias
+//* Type Alias Example in TypeScript
+//* Type Alias is used to give a custom name to a type structure 
 
+
+// Step 1: Create a type alias for a complex object structure
 type User = {
     id: number,
     name: {
         firstName: string,
         lastName: string,
     },
-    gender: 'male' | 'female',
+    gender: 'male' | 'female',  // union type (only two allowed values)
     contactNo: string,
     address: {
         division: string,
         city: string,
     },
 }
+
+// Step 2: Use the 'User' type for multiple objects
+// This helps to keep the structure consistent and reusable
 
 const user1: User = {
 

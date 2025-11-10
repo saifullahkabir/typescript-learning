@@ -29,6 +29,7 @@ const result2 = kgToGmConverter('2 kg') as string;
 console.log({ result2 });
 
 
+// Define a custom error type
 type CustomError = {
     message: string;
 }
