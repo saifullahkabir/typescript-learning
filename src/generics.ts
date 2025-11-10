@@ -16,7 +16,9 @@ const isEligibleList: GenericArray<boolean> = [true, false, true];
 
 
 // Each element must have 'name' and 'age' property
-const useList: GenericArray<{ name: string, age: number }> = [
+type User = { name: string, age: number };
+
+const useList: GenericArray<User> = [
     {
         name: 'Mr. R',
         age: 22,
