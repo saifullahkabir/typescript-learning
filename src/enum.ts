@@ -28,3 +28,5 @@ console.log(isEditPermissable);
 // 2. Runtime code add হয়: TypeScript normally type check করে, কিন্তু enum compile হয়ে runtime এও থেকে যায়।
 // 3. Tree-shaking problem: কিছু bundler enum properly remove করতে পারে না।
 // 4. Alternative আছে: as const বা union literal types।
+
+// --experimental-transform-types
