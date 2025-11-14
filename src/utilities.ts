@@ -41,3 +41,4 @@ const product1 = {
 
 // Record — creates an object type with specific key & value types
 const emptyObj: Record<string, unknown> = {};
+
