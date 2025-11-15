@@ -12,7 +12,7 @@ class Bankaccount {
     };
 
     addBalance(balance: number) {
-        this.userBalance = this.userBalance + balance;
+        return this.userBalance = this.userBalance + balance;
     }
 }
 
