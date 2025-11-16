@@ -16,7 +16,7 @@ class Person {
     }
 }
 
-// student
+// Child Class (Student → inherits Person)
 class Student extends Person { };
 
 const student1 = new Student('Mr. Fakibaz', 20, 'Bangladesh');

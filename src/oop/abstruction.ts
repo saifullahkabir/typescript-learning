@@ -9,7 +9,7 @@
  */
 
 //* using interface
-// idea
+// idea (contract)
 // interface MediaPlayer {
 //   play(): void;
 //   pause(): void;

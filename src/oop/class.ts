@@ -16,23 +16,27 @@
 //     }
 // };
 
+//* parameter properties
 
-// parameter properties
+// Class: blueprint for creating objects
 class Animal {
+  // Using parameter properties (public)
+  constructor(
+    public name: string,
+    public species: string,
+    public sound: string
+  ) {}
 
+  // Method inside class
+  makeSound() {
+    console.log(`${this.name} is making sound: ${this.sound}`);
+  }
+}
 
-    constructor(public name: string, public species: string, public sound: string) {
-
-    };
-
-    makeSound() {
-        console.log(`${this.name} is making sound: ${this.sound}`);
-    }
-};
-
-const cat = new Animal('Cikho', 'Cat', 'mewwo mewwo');
+// Creating objects from the class
+const cat = new Animal("Cikho", "Cat", "mewwo mewwo");
 console.log(cat);
 
-const dog = new Animal('Dogesh', 'Dog', 'ghaw ghaw');
+const dog = new Animal("Dogesh", "Dog", "ghaw ghaw");
 
-dog.makeSound()
+dog.makeSound();
